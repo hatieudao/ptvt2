@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Giải PTVP Cấp 2</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="function">
+        <h2>Ay'' + By' + Cy = e<sup>&alpha;x</sup>(ax<sup>2</sup> + bx + c)</h2>
+        <h2>Ay'' + By' + Cy = e<sup>&alpha;x</sup>(ax + bx)</h2>
+      </div>
+      <div class="form-input">
+        <div class="input-number">
+          <form action="POST">
+            <label for="A">Ay''</label>
+            <input type="text" id="A" />
+          </form>
+        </div>
+        <div class="input-number">
+          <form action="POST">
+            <label for="B">By'</label>
+            <input type="text" id="B" />
+          </form>
+        </div>
+        <div class="input-number">
+          <form action="POST">
+            <label for="C">Cy</label>
+            <input type="text" id="C" />
+          </form>
+        </div>
+        <div class="input-number alpha">
+          <form action="POST">
+            <label for="alpha"> e<sup>&alpha;x</sup> </label>
+            <input type="text" id="alpha" />
+          </form>
+        </div>
+        <div class="input-number ptc1">
+          <form action="POST">
+            <label for="a">ax</label>
+            <input type="text" id="a" />
+          </form>
+        </div>
+        <div class="input-number ptc1">
+          <form action="POST">
+            <label for="b">b</label>
+            <input type="text" id="b" />
+          </form>
+        </div>
+        <div class="input-number ptc2">
+          <form action="POST">
+            <label for="a2">ax<sup>2</sup> </label>
+            <input type="text" id="a2" />
+          </form>
+        </div>
+        <div class="input-number ptc2">
+          <form action="POST">
+            <label for="b2">bx</label>
+            <input type="text" id="b2" />
+          </form>
+        </div>
+        <div class="input-number ptc2">
+          <form action="POST">
+            <label for="c2">c</label>
+            <input type="text" id="c2" />
+          </form>
+        </div>
+      </div>
+      <button class="solve" id="submit">SOLVE</button>
+      <div class="output">
+        <div id="result"></div>
+      </div>
+    </div>
+    <div class="member">
+      <img src="member.png" alt="icon-member" id="member" />
+      <div class="infor" id="infor">
+        <p>1. Trần Trọng Hoàng Anh 19120452</p>
+        <p>2. Nguyễn Tuấn Anh 19120451</p>
+        <p>3. Hoàng Anh Vũ 19120432</p>
+        <p>4. Ngô Hữu Đang 19120467</p>
+        <p>5. Nguyễn Anh Tuấn 19120416</p>
+        <p>6. Nguyễn Quốc Anh 19120450</p>
+        <p>7. Huỳnh Tiến Đạt 19120470</p>
+        <p>8. Nguyễn Phùng Mai Đan 19120466</p>
+        <p>9. Trần Minh Bảo 19120457</p>
+        <p>10.Huỳnh Hải Đăng 19120468</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
